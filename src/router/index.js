@@ -4,7 +4,8 @@ import VueRouter from 'vue-router'
 import WebSite from '../components/WebSite'
 import LoginLogin from '../components/LoginLogin'
 import SignupSign from '../components/SignupSign'
-
+// import BookingOnline from '../views/BookingOnline'
+// import DashBoard from '../views/dashboard/DashBoard'
 
 Vue.use(VueRouter)
 
@@ -24,6 +25,55 @@ const routes = [
      name: 'Signup',
      component: SignupSign
   },
+  {
+     path: '/tenant',
+     name: 'Home',
+     component: ()=> import(/*webpackChunkName: "home" */ '../views/dashboard/Home'),
+     children: [
+      {
+      path: 'dash',
+      name: 'DashBoard',
+      component: () => import(/*webpackChunkName: "dashboard" */ '../views/dashboard/DashBoard')
+     },
+      {
+        path: 'booking',
+        name:'BookingOnline',
+        component: () => import(/*webpackChunkName: "bookingonline*/ '../views/BookingOnline')
+      },
+
+      {
+        path: 'email',
+        name:'Email',
+        component: () => import(/*webpackChunkName: "email"*/ '../views/Email')
+      },
+      
+      {
+        path: 'messages',
+        name:'Messages',
+        component: () => import(/*webpackChunkName: "messages"*/ '../views/Messages')
+      },
+      {
+        path: 'component',
+        name:'ComPonent',
+        component: () => import(/*webpackChunkName: "component"*/ '../views/ComPonent')
+      },
+      {
+        path: 'pugins',
+        name:'Pugins',
+        component: () => import(/*webpackChunkName: "pugins"*/ '../views/Pugins')
+      },
+      {
+        path:'settings',
+        name:'SetTings',
+        component: () => import (/*webpackChunkName: "settings"*/ '../views/SetTings')
+      }
+    ]
+  },
+  // {
+  //    path:'/dashboard',
+  //    name:'DashBoard',
+  //    component: DashBoard
+  // },
   
 
   {
