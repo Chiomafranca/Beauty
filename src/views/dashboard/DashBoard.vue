@@ -1,39 +1,55 @@
 <template>
   <div class="container">
-    <h3 class="text-center text-success">Active plans</h3>
-    <!-- start -->
-    <div class="row dash margin-0-auto">
-      <div class="row justify-content-around pb-5">
-        <div class="col-8 col-sm-5 bg-white shadow box1">
-          <p class="text-warning">package1</p>
-          <h4>code 360.com</h4>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, fugiat! Cum voluptatum veniam in facere repellendus illo nesciunt libero aut!</p>
-          <small class="text-info">codepen</small>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow mt-3 p-3">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#toggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="toggle">
+        <h1 class="text-white">Product</h1>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mr-2 text-white">
+            <a>foundation</a>
+          </li>
+          <li class="nav-item mr-2 text-white">
+            <a>lipstick</a>
+          </li>
+          <li class="nav-item mr-2 text-white">
+            <a>powder</a>
+          </li>
+          <li class="nav-item mr-2 text-white">
+            <a>perfume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <div class="col-12">
+      <div class="d-flex justify-content-between mt-4">
+        <div class="col-3">
+          <img
+            class="100px"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpDf26EGvHijtyzg3Kk5S56jIdtTShGaxvg&usqp=CAU"
+          />
+          <p>for skill type at a cheap cost</p>
         </div>
-        <div class="col-8 col-sm-5 bg-white shadow box2">
-          <p class="text-warning">package2</p>
-          <h4>code 360.com</h4>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, fugiat! Cum voluptatum veniam in facere repellendus illo nesciunt libero aut!</p>
-          <small class="text-info">codepen</small>
+        <div class="col-3">
+          <img width="170px" src="https://m.media-amazon.com/images/I/61x7hSFI6kL._SL1500_.jpg" />
+          <p>for skill type at a cheap cost</p>
+        </div>
+        <div class="col-3">
+          <img
+            width="170px"
+            src="https://cdn.shopify.com/s/files/1/0645/1619/4519/products/20220720_183549.jpg?v=1658307983&width=1808"
+          />
+          <p>for skill type at a cheap cost</p>
+        </div>
+        <div class="col-3">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKLpxoxxIGnA9ZtA56UIz3wXyyUZa4YqmMeQ&usqp=CAU"
+          />
+          <p>for skill type at a cheap cost</p>
         </div>
       </div>
-      <!-- end -->
-      <!-- start -->
-      <div class="row justify-content-around">
-        <div class="col-8 col-sm-5 bg-white shadow box3">
-          <p class="text-warning">package3</p>
-          <h4>code 360</h4>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, fugiat! Cum voluptatum veniam in facere repellendus illo nesciunt libero aut!</p>
-          <small class="text-info">codepen</small>
-        </div>
-        <div class="col-8 col-sm-5 bg-white shadow box4">
-          <p class="text-warning">package3</p>
-          <h4>code 360.com</h4>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, fugiat! Cum voluptatum veniam in facere repellendus illo nesciunt libero aut!</p>
-          <small class="text-info">codepen</small>
-        </div>
-      </div>
-      <!-- end -->
     </div>
   </div>
 </template>

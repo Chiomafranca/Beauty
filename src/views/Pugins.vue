@@ -26,6 +26,7 @@
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Nostrum nulla in cumque minima incidunt iure!
             </p>
+
             <p class="text-info footer">Add a new post</p>
           </div>
         </div>
@@ -88,8 +89,12 @@
             </div>
           </div>
         </div>
-        <div class="col-6">2</div>
+        <!-- end -->
+        <div class="col-6">
+          <h1>Qiuck Draft</h1>
+        </div>
       </div>
+      <!-- END -->
     </div>
   </div>
 </template>

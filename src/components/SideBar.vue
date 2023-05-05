@@ -12,7 +12,7 @@
       <router-link to="/tenant/dash" class="text-decoration-none text-white">
         <div class="d-flex dash1 mt-2 mb-2">
           <i class="bi bi-dash-square-fill"></i>
-          <p>DashBoard</p>
+          <p>dashboard</p>
         </div>
       </router-link>
 

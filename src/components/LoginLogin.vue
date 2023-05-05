@@ -51,9 +51,9 @@
               />
               <div v-for="(errors , index) in error" :key="index" class="text-info">{{ errors }}</div>
 
-              <div class="text-center mt-3">
+              <router-link class="text-center mt-3" to="/tenant/dash/">
                 <button class="btn btn-info btn-lg">Login</button>
-              </div>
+              </router-link>
             </form>
           </div>
         </div>
