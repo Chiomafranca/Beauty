@@ -66,6 +66,11 @@ const routes = [
         path:'settings',
         name:'SetTings',
         component: () => import (/*webpackChunkName: "settings"*/ '../views/SetTings')
+      },
+      {
+        path :'sms',
+        name:"SmsSms",    
+        component: () => import (/*webpackChunkName: "sms"*/ '../views/SmsSms')
       }
     ]
   },

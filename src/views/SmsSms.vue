@@ -1,7 +1,7 @@
 <template>
   <div class="block container-fluid">
     <div>
-      <h2>Email</h2>
+      <h2>SMS</h2>
       <div class="border border-20 border-gray"></div>
     </div>
     <div class="row border border-20 mt-3" id="con">
@@ -11,7 +11,7 @@
           <!-- sidebar start -->
           <div class="col-md-12 d-flex">
             <div class="sidebar1 col-10 col-lg-12" >
-              <button class="btn btn-primary btn-rounded btn-lg">Compose Email</button>
+              <button class="btn btn-primary btn-rounded btn-lg">Compose SMS</button>
               <div class="d-flex p-2 ml-1 m">
                 <i class="bi bi-save2 h5"></i>
                 <p class="text-secondary">Buy Units</p>
@@ -42,7 +42,7 @@
           <!-- end sidebar-->
         </div>
         <div class="col-12 col-lg-9">
-          <h2>Compose Email</h2>
+          <h2>Compose SMS</h2>
           <div class="border border-20 mb-4"></div>
 
           <div class="d-flex first">
