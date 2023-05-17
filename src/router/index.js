@@ -36,9 +36,9 @@ const routes = [
       component: () => import(/*webpackChunkName: "dashboard" */ '../views/dashboard/DashBoard')
      },
       {
-        path: 'booking',
-        name:'BookingOnline',
-        component: () => import(/*webpackChunkName: "bookingonline*/ '../views/BookingOnline')
+        path: 'purchase',
+        name:'PurChase',
+        component: () => import(/*webpackChunkName: "purchase*/ '../views/PurChase')
       },
 
       {

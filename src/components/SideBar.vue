@@ -16,7 +16,7 @@
         </div>
       </router-link>
 
-      <router-link to="/tenant/booking" class="d-flex text-decoration-none text-dark">
+      <router-link to="/tenant/purchase" class="d-flex text-decoration-none text-dark">
         <div class="d-flex dash1">
           <i class="bi bi-bookmarks"></i>
           <p>purchase</p>
